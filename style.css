@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+.header {
+    background-color: #222;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__search {
+    margin-left: 41px;
+}
+
+.header__accoutn {
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.promo {
+    background: rgba(113, 103, 105, 0.08);
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+    display: flex;
+}
+
+.promo__left {
+    width: 50%;
+}
+
+.promo__img {
+    width: 100%;
+}
+
+.promo__right {
+    width: 50%;
+    background: #F1E4E6;
+    display: flex;
+    align-items: center;
+    padding-left: 64px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+}
+
+.catalog__item {
+    position: relative;
+}
+
+.catalog__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.catalog__content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog__img {
+    width: 100%;
+}
+
+.catalog-big {
+    margin-top: 30px;
+    position: relative;
+}
+
+.catalog-big__img {
+    width: 100%;
+}
+
+.catalog__heading{
+    color:#F16D7F;
+}
+
+.catalog__text{
+    color: #ffffff;
+}
+
+
+.black__fone{
+    height: 341px;
+    background-color: #222224;
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.black__item{
+    width: 360px;
+    padding-top: 103px;
+    display: flex;
+    flex-direction: column;
+}
+
+.black__heading{
+    color:#FBFBFB;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.96px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.black__text{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+    padding-top: 16px;
+}
+
+.b1{
+    padding-top: 28px;
+}
+
+.b2{
+    padding-top: 20px;
+}
+
+.b3{
+    padding-top: 25px;
+}
+
+.subscribe{
+    height:448px;
+    background-image: url(img/photo__subscribe.png);
+    display: flex;
+    justify-content: space-around;
+}
+
+.subscribe__block{
+    width: 557px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe__img{
+    text-align: center;
+    padding-top: 97px;
+}
+
+.subscribe__text{
+    width: 360px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center; 
+    color: #222224;
+    padding-top: 30px;
+}
+
+.subscribe__heading{
+    padding-top: 150px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #222224;
+}
+
+.form{
+    position: relative;
+}
+
+.subscribe__email{
+    background: #E1E1E1;
+    width:323px;
+    height: 49px;
+    border-radius: 30px;
+    padding-left: 22px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #222224;
+    opacity: 0.67;
+    border-width: 0px;
+    margin-top: 32px;
+}
+
+.subscribe__button{
+    position: absolute;
+    background-color:#F16D7F;
+    height: 49px;
+    width: 100px;
+    top: 32px;
+    left: 224px;
+    border-radius: 0px 30px 30px 0px;
+    border-width: 0px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.copyright{
+    height: 79px;
+    background-color: #222224;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy__text{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
